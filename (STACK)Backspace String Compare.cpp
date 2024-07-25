@@ -1,6 +1,6 @@
 class Solution {
     private:
-// time comp = O(max(n,m)) space comp = o(max(n,m))
+// time comp = O(n+m) space comp = o(max(n,m))
     string processString( string& str){
         stack<char>editor;
         for(auto&c : str){
